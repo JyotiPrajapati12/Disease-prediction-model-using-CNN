@@ -1,0 +1,234 @@
+{
+    "data":
+    [
+        {
+            "Plant":"Rose",
+            "Scientific Name":"Rosa spp",
+            "Characteristics":"Fragrant flowers, thorny stems, various colors",
+            "Nutrients":"Balanced fertilizer high in phosphorus",
+            "Weather Condition":"Preferably temperate climates, but can grow in various conditions",
+            "Type":"Perennial flowering plant",
+            "Diseases":"Black spot, powdery mildew",
+            "Solutions": "Prune affected parts, apply fungicides",
+            "image": "/static/plants/rose.jpg"
+        },
+        {
+            "Plant":"Tomato",
+            "Scientific Name":"Solanum lycopersicum",
+            "Characteristics":"Edible fruit, sprawling vines",
+            "Nutrients":"Nitrogen-rich fertilizer during growth, balanced during fruiting",
+            "Weather Condition":"Warm and sunny, sensitive to frost",
+            "Type":"Annual vegetable",
+            "Diseases":"Blight, blossom end rot",
+            "Solutions":" Crop rotation, proper watering",
+            "image":"/static/plants/tomato.jpg"
+            
+
+        },
+        {
+            "Plant":"Lavender",
+            "Scientific Name":"Lavandula spp",
+            "Characteristics":"Fragrant flowers, drought-tolerant, gray-green foliage",
+            "Nutrients":"Low-nitrogen fertilizer",
+            "Weather Condition":"Thrives in sunny, dry conditions",
+            "Type":"Perennial herb",
+            "Diseases":"Root rot, fungal diseases",
+            "Solutions":"Well-drained soil, avoid overhead watering",
+            "image":"/static/plants/lavender.jpg"
+        
+        },
+        {
+            "Plant":"Basil",
+            "Scientific Name":" Ocimum basilicum",
+            "Characteristics":"Aromatic leaves, tender stems",
+            "Nutrients":"Balanced fertilizer",
+            "Weather Condition":"Warm and sunny, sensitive to cold",
+            "Type":"Annual herb",
+            "Diseases":"Downy mildew, Fusarium wilt",
+            "Solutions":"Proper air circulation, avoid overwatering",
+            "image":"/static/plants/basil.jpg"
+
+        },
+        {
+            "Plant":"Cactus",
+            "Scientific Name":"Various genera (e.g., Opuntia, Echinocactus)",
+            "Characteristics":"Succulent stems, spines",
+            "Nutrients":"Low-nitrogen, high-potassium fertilizer",
+            "Weather Condition":"Arid and sunny conditions",
+            "Type":"Succulent perennial",
+            "Diseases":"Root rot, mealybugs",
+            "Solutions":"Well-drained soil, controlled watering",
+            "image":"/static/plants/cactus.jpg"
+        },
+        {
+            "Plant":"Sunflower",
+            "Scientific Name":"Helianthus annuus",
+            "Characteristics":"Large yellow flowers, tall stems",
+            "Nutrients":"Balanced fertilizer",
+            "Weather Condition":"Sunny and warm, tolerant of various conditions",
+            "Type":"Annual flowering plant",
+            "Diseases":"Downy mildew, rust",
+            "Solutions":"Proper spacing, fungicide application",
+            "image":"/static/plants/sunflower.jpg"
+        },
+        {
+            "Plant":"Mint",
+            "Scientific Name":"Mentha spp",
+            "Characteristics":"Aromatic leaves, spreading habit",
+            "Nutrients":"Balanced fertilizer",
+            "Weather Condition":"Thrives in moist, shaded areas",
+            "Type":"Perennial herb",
+            "Diseases":"Rust, powdery mildew",
+            "Solutions":"Regular pruning, adequate air circulation",
+            "image":"/static/plants/mint.jpg"
+        },
+        {
+            "Plant":"Fern",
+            "Scientific Name":"Various genera (e.g., Nephrolepis, Adiantum)",
+            "Characteristics":"Fronds, shade-loving",
+            "Nutrients":"Balanced liquid fertilizer",
+            "Weather Condition":"Moist, shady conditions",
+            "Type":"Perennial foliage plant",
+            "Diseases":"Leaf spot, root rot",
+            "Solutions":"Proper watering, avoid over-fertilizing",
+            "image":"/static/plants/fern.jpg"
+            
+        },
+        {
+            "Plant":"Money Plant",
+            "Scientific Name":"Epipremnum aureum",
+            "Characteristics":"Heart-shaped leaves, trailing vines",
+            "Nutrients":"Balanced liquid fertilizer",
+            "Weather Condition":"Tolerant of various conditions, prefers indirect light",
+            "Type":"Evergreen vine",
+            "Diseases":"Root rot, mealybugs",
+            "Solutions":"Well-drained soil, controlled watering",
+            "image":"/static/plants/money_plant.jpg"
+        },
+        {
+            "Plant":"Succulent",
+            "Scientific Name":"Various genera (e.g., Echeveria, Haworthia)",
+            "Characteristics":"Fleshy leaves, drought-tolerant",
+            "Nutrients":"Low-nitrogen fertilizer",
+            "Weather Condition":"Arid and sunny conditions",
+            "Type":"Perennial succulent",
+            "Diseases":"Root rot, aphids",
+            "Solutions":"Well-drained soil, controlled watering",
+            "image":"/static/plants/succulent.jpg"
+
+        },
+        {
+            "Plant":"Peony",
+            "Scientific Name":"Paeonia spp",
+            "Characteristics":"Large, showy flowers, herbaceous stems",
+            "Nutrients":"Balanced fertilizer",
+            "Weather Condition":"Temperate climates, cool winters",
+            "Type":"Perennial flowering plant",
+            "Diseases":"Botrytis blight, powdery mildew",
+            "Solutions":"Adequate air circulation, fungicide application",
+            "image":"/static/plants/peony.jpg"
+        },
+        {
+            "Plant":"Orchid",
+            "Scientific Name":"Orchidaceae family ",
+            "Characteristics":"Exotic flowers, aerial roots",
+            "Nutrients":"Orchid-specific fertilizer",
+            "Weather Condition":"Warm and humid, indirect light",
+            "Type":"Epiphytic or terrestrial perennial",
+            "Diseases":"Root rot, fungal infections",
+            "Solutions":"Proper watering, sterilized tools for pruning",
+            "image":"/static/plants/orchid.jpg"
+        },
+        {
+            "Plant":"Chrysanthemum",
+            "Scientific Name":"Chrysanthemum spp",
+            "Characteristics":"Colorful flowers, bushy habit",
+            "Nutrients":"High-phosphorus fertilizer",
+            "Weather Condition":"Cooler temperatures, full sun",
+            "Type":"Perennial flowering plant",
+            "Diseases":"Leaf spot, powdery mildew",
+            "Solutions":"Proper spacing, fungicide application",
+            "image":"/static/plants/chrysanthemum.jpg"
+        },
+        {
+            "Plant":"Aloe Vera",
+            "Scientific Name":"Aloe barbadensis miller",
+            "Characteristics":"Succulent leaves, medicinal properties",
+            "Nutrients":"Balanced liquid fertilizer",
+            "Weather Condition":"Warm and sunny, drought-tolerant",
+            "Type":"Perennial succulent",
+            "Diseases":"Root rot, scale insects",
+            "Solutions":"Well-drained soil, controlled watering",
+            "image":"/static/plants/aloevera.jpg"
+        },
+        {
+            "Plant":"Geranium",
+            "Scientific Name":"Pelargonium spp",
+            "Characteristics":"Colorful flowers, aromatic foliage",
+            "Nutrients":"Balanced fertilizer",
+            "Weather Condition":"Warm temperatures, full sun",
+            "Type":"Perennial flowering plant",
+            "Diseases":" Botrytis blight, leaf spot",
+            "Solutions":"Adequate air circulation, fungicide application",
+            "image":"/static/plants/geranium.jpg"
+        },
+        {
+            "Plant":"Lemon Tree",
+            "Scientific Name":"Citrus limon",
+            "Characteristics":"Edible fruit, glossy leaves",
+            "Nutrients":"Citrus-specific fertilizer",
+            "Weather Condition":"Warm and sunny, frost-sensitive",
+            "Type":"Evergreen tree",
+            "Diseases":"Citrus canker, root rot",
+            "Solutions":"Proper pruning, well-drained soil",
+            "image":"/static/plants/lemon.jpg"
+        },
+        {
+            "Plant":"Poinsettia",
+            "Scientific Name":"Euphorbia pulcherrima",
+            "Characteristics":"Brightly colored bracts, milky sap",
+            "Nutrients":"High-potassium fertilizer",
+            "Weather Condition":"Warm temperatures, indirect light",
+            "Type":"Perennial flowering plant",
+            "Diseases":"Powdery mildew, botrytis blight",
+            "Solutions":"Proper air circulation, avoid overwatering",
+            "image":"/static/plants/poinsettia.jpg"
+
+        },
+        {
+            "Plant":"Jasmine",
+            "Scientific Name":"Jasminum spp",
+            "Characteristics":"Fragrant flowers, climbing vines",
+            "Nutrients":"Balanced fertilizer",
+            "Weather Condition":"Warm temperatures, full sun to partial shade",
+            "Type":"Perennial flowering plant",
+            "Diseases":"Powdery mildew, aphids",
+            "Solutions":"Proper pruning, insecticidal soap",
+            "image":"/static/plants/jasmine.jpg"
+        },
+        {
+            "Plant":"Snake Plant",
+            "Scientific Name":"Sansevieria trifasciata",
+            "Characteristics":"Tough leaves, low maintenance",
+            "Nutrients":"Balanced liquid fertilizer",
+            "Weather Condition":"Tolerant of various conditions, indirect light",
+            "Type":"Evergreen perennial",
+            "Diseases":"Root rot, spider mites",
+            "Solutions":"Well-drained soil, controlled watering",
+            "image":"/static/plants/snakePlant.jpg"
+        },
+        {
+            "Plant":"Bamboo",
+            "Scientific Name":"Various genera (e.g., Bambusa, Phyllostachys)",
+            "Characteristics":"Tall stems (culms), fast-growing",
+            "Nutrients":" Balanced fertilizer",
+            "Weather Condition":"Warm temperatures, high humidity",
+            "Type":"Perennial grass",
+            "Diseases":"Fungal infections, aphids",
+            "Solutions":"Proper spacing, fungicide application",
+            "image":"/static/plants/bamboo.jpg"
+        }
+
+
+    ]
+}

@@ -1,0 +1,175 @@
+
+.navbar-brand {
+    padding: 15px 60px;
+   
+  }
+  .logo {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+  }
+  
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    
+    vertical-align: top;
+  }
+  
+  .navbar-right {
+    padding-right: 60px;
+
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    font-size: 18px;
+  }
+   /* Style for search box */
+   #search-box {
+    margin-bottom: 20px;
+  }
+  /* Style for search results */
+  #search-results {
+    font-family: Arial, sans-serif;
+  }
+
+
+.search-box,
+.close-icon,
+.submit_btn,
+.search-wrapper {
+  position: relative;
+  padding: 6px;
+}
+
+
+.search-wrapper {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.search-box {
+  flex: 1;
+  width: 80%;
+  margin-right: 0px;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.search-box:focus {
+  box-shadow: 0 0 15px 5px #b0e0ee;
+  border: 2px solid #bebede;
+}
+
+.close-icon {
+  border: 1px solid transparent;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+
+.close-icon:after {
+  content: "X";
+  display: block;
+  align-content: center;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: #3c8d58;
+  z-index: 1;
+  right: 35px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  box-shadow: 0 0 2px #0056b3;
+  cursor: pointer;
+}
+
+.search-box:not(:valid)~.close-icon {
+  display: none;
+}
+.submit_btn {
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  /* Hover effect */
+.submit_btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+.jumbotron-bg {
+    background-image: url("/static/3775389.jpg");
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    color:white; /* Set text color to white for better visibility */
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.card-wrapper {
+    width: 300px; /* Set the width of the card wrapper */
+}
+.plant-name {
+  text-align: center;
+}
+.card {
+    width: 300px; /* Set the width of the card */
+    height: 270px; /* Set the height of the card */
+    background-color: #fff; /* Set background color of the card */
+    border: 1px solid #ccc; /* Add border to the card */
+    border-radius: 10px; /* Add border-radius to create rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a 3D effect */
+    overflow: hidden; /* Hide overflow content */
+    position: relative; /* Position relative for absolute positioning of content */
+}
+
+.card-content {
+    padding: 20px; /* Add padding to the card content */
+    height: 100%; /* Set the height of the card content */
+    overflow-y: auto; /* Add vertical scrollbar when content overflows */
+
+}
+
+.card h3 {
+    margin-top: 0; /* Remove default margin for h3 */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+.card p {
+    margin: 5px 0; /* Add margin to paragraphs for spacing */
+}

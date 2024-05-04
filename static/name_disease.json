@@ -1,0 +1,333 @@
+{
+    "data": 
+    [
+      {
+        "id":"01",
+        "Plant": "Tomato", 
+        "Disease": "Bacterial wilt",
+        "Symptoms":"Wilting and yellowing",
+        "Causes":"Caused by Ralstonia solanacearum.",
+        "Treatment": "Use resistant tomato varieties.\n Avoid planting near tobacco."
+    },
+    {
+        "id":"02",
+        "Plant": "Tomato", 
+        "Disease": "Tobacco mosaic",
+        "Symptoms":"Mosaic-like patterns on leaves.",
+        "Causes":"Caused by Tobacco mosaic virus (TMV).",
+        "Treatment":"Use resistant tomato varieties.\n Avoid planting near tobacco."
+    },
+    {
+        "id":"03",
+        "Plant": "Apple", 
+        "Disease": "Fire blight",
+        "Symptoms":"Water-soaked blossoms shrivel.",
+        "Causes":"Caused by Erwinia amylovora.",
+        "Treatment":"Prune affected branches.\nApply copper-based sprays during dormant season."
+    },
+    {
+        "id":"04",
+        "Plant": "Apple", 
+        "Disease": "Crown gall",
+        "Symptoms":"Wrinkled stems and brown-to-black roots.",
+        "Causes":": Caused by Agrobacterium tumefaciens.",
+        "Treatment":"Prune affected branches.\nApply copper-based sprays during dormant season."
+    },
+    {
+        "id":"05",
+        "Plant": "Beans", 
+        "Disease": "Blight of beans",
+        "Symptoms":"Yellowish-green spots on leaves.",
+        "Causes":"Caused by Xanthomonas campestris.",
+        "Treatment":"Use disease-resistant bean varieties.\nAvoid overhead irrigation."
+    },
+    {
+        "id":"06",
+        "Plant": "Beans", 
+        "Disease": "Soft rot",
+        "Symptoms":"Soft decay in fleshy tissue fruits.",
+        "Causes":"Various bacteria.",
+        "Treatment":"Use disease-resistant bean varieties.\nAvoid overhead irrigation."
+    },
+    {
+        "id":"07",
+        "Plant": "Tobacco", 
+        "Disease": "Granville wilt",
+        "Symptoms":"Stunted growth, yellowing, and wilting of above-ground parts.",
+        "Causes":"Caused by Pseudomonas solanacearum.",
+        "Treatment":"Remove and destroy infected plants.\nRotate crops to prevent recurrence."
+    },
+    {
+        "id":"08",
+        "Plant": "Tobacco", 
+        "Disease": "Wildfire of tobacco",
+        "Symptoms":"Yellowish-green spots on leaves.",
+        "Causes":"Caused by Pseudomonas syringae.",
+        "Treatment":"Remove and destroy infected plants.\nRotate crops to prevent recurrence."
+    },
+    {
+        "id":"09",
+        "Plant": "Pear", 
+        "Disease": "Fire blight",
+        "Symptoms":"Water-soaked blossoms shrivel.",
+        "Causes":"Caused by Erwinia amylovora.",
+        "Treatment":"Prune affected branches.\nApply copper-based sprays during dormant season."
+    },
+    {
+        "id":"10",
+        "Plant": "Pear", 
+        "Disease": "Black spot",
+        "Symptoms":"Black spots on leaves.",
+        "Causes":"Caused by Diplocarpon rosae.",
+        "Treatment":"Prune affected branches.\nApply copper-based sprays during dormant season."
+    },
+    {
+        "id":"11",
+        "Plant": "Potato", 
+        "Disease": "Violet Root Rot",
+        "Symptoms":"Stunted growth, Leaf yellowing.",
+        "Causes":"Caused By Helicobasidium mompa, a fungal pathogen.",
+        "Treatment":"Crop rotation.\nFungicidal treatments.\nUse resistant varieties."
+    },
+    {
+        "id":"12",
+        "Plant": "Potato", 
+        "Disease": "Verticillium Wilt",
+        "Symptoms":"Decreased tuber yield and quality.",
+        "Causes":"Caused By Verticillium dahliae, a soil-borne fungus.",
+        "Treatment":"Use disease-resistant bean varieties.\nAvoid overhead irrigation."
+    },
+    {
+        "id":"13",
+        "Plant": "eggplant (type of brinjal):", 
+        "Disease": "Early Blight",
+        "Symptoms":"Brown spots on leaves, Yellowing and leaf drop.",
+        "Causes":"caused by Fungal disease (Alternaria solani).",
+        "Treatment":"Remove infected leaves.\nApply fungicides.\nRemove and destroy infected plant parts."
+    },
+    {
+        "id":"14",
+        "Plant": "eggplant (type of brinjal):", 
+        "Disease": "Anthracnose",
+        "Symptoms":"Sunken lesions on the leaves and fruit, Lesions can eventually become black and rot.",
+        "Causes":"Fungal disease (Colletotrichum spp.).",
+        "Treatment":"Remove infected leaves.\nApply fungicides.\nRemove and destroy infected plant parts."
+    },
+    {
+        "id":"15",
+        "Plant": "Cabbage", 
+        "Disease": "Alternaria Leaf Spot",
+        "Symptoms":"Yellow spots with rings resembling a target or bull’s-eye, Tissue death leading to holes in the foliage.",
+        "Causes":"Fungi (Alternaria brassicicola and A. brassicae).",
+        "Treatment":"Good cultural practices (drip irrigation, sanitation, crop rotation).\nBiopesticides like Bacillus amyloliquefaciens and Bacillus subtilis."
+    },
+    {
+        "id":"16",
+        "Plant": "Cabbage", 
+        "Disease": "Bacterial Leaf Spot",
+        "Symptoms":"Dark flecks on the leaves that spread into lesions, Angular lesions that make the leaves look ragged.",
+        "Causes":"Two different species of bacteria: Pseudomonas syringae pv. maculicola and Xanthomonas campestris pv. armoraciae.",
+        "Treatment":"Good cultural practices (drip irrigation, sanitation, crop rotation).\nBiopesticides like Bacillus amyloliquefaciens and Bacillus subtilis."
+    },
+    {
+        "id":"17",
+        "Plant": "Cauliflower", 
+        "Disease": "Downy Mildew",
+        "Symptoms":"Yellow patches on the upper side of leaves, White, fuzzy growth on the undersides of leaves, Leaves may curl or become distorted.",
+        "Causes":"Fungal disease (Peronospora parasitica).",
+        "Treatment":"Remove and destroy infected leaves.\nApply fungicides containing copper or mancozeb.\nPractice crop rotation."
+    },
+    {
+        "id":"18",
+        "Plant": "Cauliflower", 
+        "Disease": "Black Rot",
+        "Symptoms":"Yellow V-shaped lesions at the leaf margins, Lesions expand and turn brown or black, Wilting and death of affected leaves.",
+        "Causes":"Bacterial disease (Xanthomonas campestris pv. campestris).",
+        "Treatment":"Remove and destroy infected leaves.\nApply fungicides containing copper or mancozeb.\nPractice crop rotation."
+    },
+    {
+        "id":"19",
+        "Plant": "Pumpkin Plant", 
+        "Disease": "Powdery Mildew",
+        "Symptoms":"White powdery patches on leaves, stems, and sometimes fruits. ",
+        "Causes":"Fungal infection, favored by warm, dry conditions with high humidity",
+        "Treatment":" Remove affected leaves, apply fungicides containing sulfur or potassium bicarbonate, improve air circulation, and avoid overhead watering."
+    },
+    {
+        "id":"20",
+        "Plant": "Pumpkin Plant", 
+        "Disease": "Bacterial Blight",
+        "Symptoms":"Leaves may become yellow and wilted, leading to reduced photosynthesis and yield.",
+        "Causes":"wilting and yellowing of leaves, Rust can appear as orange or reddish spots on leaves.",
+        "Treatment":" Remove affected leaves, apply fungicides containing sulfur or potassium bicarbonate, improve air circulation, and avoid overhead watering."
+    },
+    {
+        "id":"21",
+        "Plant":"Lemon",
+        "Disease":"Citrus Canker",
+        "Symptoms":"Raised lesions on leaves, fruit, and stems, yellowing, premature fruit drop",
+        "Causes":"Bacterial infection",
+        "Treatment":"Prune infected parts, copper-based sprays" 
+    },
+    {
+        "id":"22",
+        "Plant":"Lemon",
+        "Disease":"Armillaria Root Rot",
+        "Symptoms":"Leaf spots can cause leaf distortion and premature leaf drop",
+        "Causes":"It enters the tree through the roots, leading to decay in both the roots and lower trunk",
+        "Treatment":" Practice good sanitation by removing fallen leaves and fruit.\nAvoid overhead watering, as moisture promotes disease spread"
+    },
+    {
+        "id":"23",
+        "Plant":"Cucumber Plant",
+        "Disease":"Powdery Mildew",
+        "Symptoms":"White powdery spots on leaves, stunted growth, leaf curling",
+        "Causes":"Fungal infection",
+        "Treatment":"Prune affected leaves, fungicide, increase air circulation"
+    },
+    {
+        "id":"24",
+        "Plant":"Cucumber Plant",
+        "Disease":"Bacterial Wilt",
+        "Symptoms":"Sudden wilting of vines, especially during hot weather.\nYellowing and browning of lower leaves",
+        "Causes":"Bacterial infection, it blocks water transport, leading to wilting",
+        "Treatment":"prevention by controlling cucumber beetles using insecticides"
+    },
+    {
+        "id":"25",
+        "Plant":"Strawberry Plant",
+        "Disease":"Anthracnose Fruit Rot",
+        "Symptoms":"Dark, sunken lesions on fruit, often with pinkish spore masses.\nLesions may expand rapidly, leading to fruit decay and loss",
+        "Causes":"Fungal infection spread through splashing water and infected plant debris",
+        "Treatment":"Remove and destroy infected fruits, apply fungicides containing copper or thiophanate-methyl, practice good sanitation"
+    },
+    {
+        "id":"26",
+        "Plant":"Strawberry Plant",
+        "Disease":"Gray Mold",
+        "Symptoms":"Grayish-brown fuzzy growth on ripe fruit",
+        "Causes":"High humidity and dampness, Poor air circulation",
+        "Treatment":"Remove infected fruit promptly, Improve airflow around plants"
+    },
+    {
+        "id":"27",
+        "Plant":"Peach Tree",
+        "Disease":"Peach Leaf Curl",
+        "Symptoms":"Reddish or purplish distorted leaves in spring, leading to leaf curling, thickening, and eventual leaf drop",
+        "Causes":"Fungal infection, favored by cool, wet conditions during leaf emergence",
+        "Treatment":"Apply fungicides containing copper or lime sulfur during dormancy"
+    },
+    {
+        "id":"28",
+        "Plant":"Peach Tree",
+        "Disease":"Bacterial Canker",
+        "Symptoms":"Early leaf drop, Gumming on branches",
+        "Causes":"Bacterial infection",
+        "Treatment":"improve air circulation, prune affected branches"
+    },
+    {
+        "id":"29",
+        "Plant":"Rosemary Plant",
+        "Disease":"Powdery Mildew",
+        "Symptoms":"White, powdery spots on the upper surfaces of leaves, which may coalesce and cover the entire leaf",
+        "Causes":"Fungal infection favored by high humidity and poor air circulation",
+        "Treatment":"Improve air circulation around the plant by pruning neighboring vegetation. Remove affected leaves and dispose of them properly"
+    },
+    {
+        "id":"30",
+        "Plant":"Rosemary Plant",
+        "Disease":"Root rot",
+        "Symptoms":"Leaves may become distorted, and overall plant growth may be stunted",
+        "Causes":"occurs due to overwatering or poor soil drainage",
+        "Treatment":"Apply fungicidal sprays containing sulfur, neem oil, or potassium bicarbonate"
+    },
+    {
+        "id":"31",
+        "Plant":"Bell Pepper",
+        "Disease":"Bacterial Leaf Spot",
+        "Symptoms":"Small, water-soaked lesions on leaves that later turn brown and necrotic. Lesions may coalesce, leading to defoliation and reduced fruit yield",
+        "Causes":"Bacterial infection, spread through splashing water and contaminated tools",
+        "Treatment":"Remove and destroy infected plant material, practice crop rotation, apply copper-based bactericides, and avoid overhead irrigation"
+    },
+    {
+        "id":"32",
+        "Plant":"Pea",
+        "Disease":"Powdery Mildew",
+        "Symptoms":"White powdery patches on leaves, stems, and pods",
+        "Causes":"Fungal infection, favored by warm days, cool nights, and high humidity",
+        "Treatment":"Apply fungicides containing sulfur or potassium bicarbonate"
+    },
+    {
+        "id":"33",
+        "Plant":"Pea",
+        "Disease":"Pea Rust",
+        "Symptoms":"Leaves may become distorted or yellowed, leading to reduced photosynthesis and yield",
+        "Causes":"The fungi Uromyces pisi and Uromyces fabae",
+        "Treatment":"Remove affected plant parts,improve air circulation, and avoid overhead watering"
+    },
+    {
+        "id":"34",
+        "Plant":"Carrot",
+        "Disease":"Carrot Rust Fly",
+        "Symptoms":"Infested carrots may have tunnels bored into the root, causing internal damage and rot",
+        "Causes":"Larvae of the carrot rust fly, which feed on carrot roots",
+        "Treatment":"Use row covers to prevent adult flies from laying eggs on carrot plants"
+    },
+    {
+        "id":"35",
+        "Plant":"Carrot",
+        "Disease":"Early Blight",
+        "Symptoms":"Affected roots may become discolored, corky, or deformed",
+        "Causes":"In warm and humid conditions, especially during the growing season",
+        "Treatment":"Practice crop rotation and avoid planting carrots in the same area for consecutive years. Harvest carrots promptly to minimize exposure to egg-laying adults"
+    },
+    {
+        "id":"36",
+        "Plant":"Lavender",
+        "Disease":"Root Rot",
+        "Symptoms":"Wilting, yellowing, and stunted growth",
+        "Causes":"Fungal infection, typically exacerbated by overwatering",
+        "Treatment":"Improve soil drainage by amending with organic matter.\nAvoid overwatering and waterlogged conditions"
+    },
+    {
+        "id":"37",
+        "Plant":"Lavender",
+        "Disease":"Crown Rot",
+        "Symptoms":"Roots may appear dark, mushy, and have a foul odor",
+        "Causes":"A variety of soil-borne fungi and oomycetes",
+        "Treatment":"Remove and destroy infected plants, and apply fungicides containing biocontrol agents like Trichoderma spp"
+    },
+    {
+        "id":"38",
+        "Plant":"Basil",
+        "Disease":"Fusarium Wilt",
+        "Symptoms":"Wilting, yellowing, and stunting of plants",
+        "Causes":"Fungal infection, which blocks water uptake in the plant's vascular system, Bacterial infection leads to leaf spots",
+        "Treatment":"Plant resistant basil varieties.\nPractice crop rotation and soil solarization to reduce pathogen populations"
+    },
+    {
+        "id":"39",
+        "Plant":"Basil",
+        "Disease":"Bacterial Leaf Spot",
+        "Symptoms":"Leaves may curl downward and exhibit chlorosis.\nVascular discoloration may be visible when stems are cut",
+        "Causes":"Overwatering leads to mold growth on the soil surface.\nIf left unchecked, it can harm the plant",
+        "Treatment":"Remove affected plants promptly to prevent spread and avoid overhead watering"
+    },
+    {
+        "id":"40",
+        "Plant":"Spinach",
+        "Disease":"Downy Mildew",
+        "Symptoms":"Yellowing of leaves, accompanied by the development of downy white or purplish growth on the undersides of leaves",
+        "Causes":"Fungal infection, favored by cool",
+        "Treatment":"Remove infected plant material, improve air circulation"
+    },
+    {
+        "id":"41",
+        "Plant":"Spinach",
+        "Disease":"Powdery Mildew",
+        "Symptoms":"Leaves may become distorted, and plant growth can be stunted",
+        "Causes":"humid conditions, causing yellowing leaves",
+        "Treatment":"avoid overhead irrigation, and apply fungicides containing copper or mancozeb"
+    }
+    ]
+}
