@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results</title>
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/static/plant.css">
+  
+</head>
+<body style="background: linear-gradient(0deg, rgba(2,228,172,1) 0%, rgba(3,84,94,1) 100%); min-height: 100vh;">
+  <nav class="navbar navbar-default" style="background-color: #02464f; border: none;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" style="display: flex; align-items: center;" href="index.html">
+          <img src="/static/leaves.png" alt="Webpage Logo" style="max-height: 100%;height: 35px; ">
+          <span class="logo">LeafyLoom</span>
+          </a>
+      </div>
+      
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="plant.html">Search Plant</a></li>
+          <li><a href="disease.html">Search Disease</a></li>
+        </ul>
+      
+    </div>
+    
+  </nav>
+    <div class="container">
+        <h1 class="jumbotron jumbotron-bg" style="text-align: center;">Search Plant By Name</h1>
+        <br><br>
+        <!-- Search box -->
+        <div class="search-wrapper">
+            <form id="search-form">
+              <input type="text" id="search" name="focus" required class="search-box" placeholder="Enter search term" />
+              <button class="close-icon" type="reset"></button>
+              <button type="submit" class="submit_btn">Submit</button>
+            </form>
+        </div>
+
+  <!-- Display search results -->
+  <div id="search-results"></div>
+        </form>
+        
+      
+         
+        
+      </div>
+      
+      
+
+  
+
+  <script>
+    // Function to fetch and display plant information
+    async function fetchPlantData(searchQuery) {
+      const response = await fetch("/static/plant.json"); // Fetch JSON data
+      const data = await response.json(); // Extract JSON data
+
+      // Get the plant-info container
+const plantInfoContainer = document.getElementById('search-results');
+
+// Clear previous search results
+plantInfoContainer.innerHTML = '';
+
+// Create a container for centering the cards
+const cardContainer = document.createElement('div');
+cardContainer.classList.add('card-container');
+
+// Append the card container to the plant-info container
+plantInfoContainer.appendChild(cardContainer);
+
+// Loop through the data and display matching plant information
+data.data.forEach(plant => {
+  if (plant.Plant.toLowerCase().includes(searchQuery.toLowerCase())) {
+    const cardWrapper = document.createElement('div'); // Create a div for each card wrapper
+    cardWrapper.classList.add('card-wrapper');
+
+    const card = document.createElement('div'); // Create a div for each card
+    card.classList.add('card');
+    card.style.backgroundImage = `url(${plant.image})`;
+
+    const cardContent = document.createElement('div'); // Create a div for card content
+    cardContent.classList.add('card-content');
+    cardContent.innerHTML = `
+      <h3>${plant.Plant}</h3>
+      <p><strong>Scientific Name:</strong> ${plant['Scientific Name']}</p>
+      <p><strong>Characteristics:</strong> ${plant.Characteristics}</p>
+      <p><strong>Nutrients:</strong> ${plant.Nutrients}</p>
+      <p><strong>Weather Condition:</strong> ${plant['Weather Condition']}</p>
+      <p><strong>Type:</strong> ${plant.Type}</p>
+      <p><strong>Diseases:</strong> ${plant.Diseases}</p>
+      <p><strong>Solutions:</strong> ${plant.Solutions}</p>
+    `;
+
+    // Append card content to card
+    card.appendChild(cardContent);
+
+    // Append card to card wrapper
+    cardWrapper.appendChild(card);
+
+    // Append card wrapper to card container
+    cardContainer.appendChild(cardWrapper);
+  }
+});
+
+
+    }
+
+    // Function to handle form submission
+    document.getElementById('search-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default form submission
+      const searchQuery = document.getElementById('search').value.trim(); // Get search query
+      if (searchQuery !== '') {
+        fetchPlantData(searchQuery); // Call fetchPlantData function with search query
+      } else {
+        alert('Please enter a search query.'); // Show alert if search query is empty
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Classification</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/static/index.css">
+  
+</head>
+<body style="background: linear-gradient(0deg, rgba(2,228,172,1) 0%, rgba(3,84,94,1) 100%);">
+
+  <nav class="navbar navbar-default" style="background-color: #02464f; border: none;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" style="display: flex; align-items: center;" href="index.html">
+          <img src="/static/leaves.png" alt="Webpage Logo" style="max-height: 100%;height: 35px; ">
+          <span class="logo">LeafyLoom</span>
+          </a>
+      </div>
+      
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="plant.html">Search Plant</a></li>
+          <li><a href="disease.html">Search Disease</a></li>
+        </ul>
+      
+    </div>
+    
+  </nav>
+
+  <div class="container">
+    <h1 class="jumbotron jumbotron-bg" style="text-align: center;">Disease Prediction</h1></div>
+  <div class="flex-container">
+  
+  <div class="center-container">
+    <h1>A <strong>website</strong> where you can find<br> the solution for your <br>plants!</h1>
+
+
+  </div>
+  <div class="weather-container">
+    <h1>Weather</h1>
+    <div id="input-section">
+        <label for="city-input">Enter a city name:</label>
+        <input type="text" id="city-input">
+        <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div id="weather-info"></div>
+</div>
+
+  <script src="/static/index.js"></script>
+</div>
+
+<div class="container">
+  
+  <br><br>
+  <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Upload Your Image :</label>
+      <div class="col-sm-10">          
+        <input type="file" class="form-control" placeholder="Hours Studied"  name="my_image" id="pwd">
+      </div>
+    </div>
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success" style="margin-bottom: 30px;">Submit</button>
+      </div>
+    </div>
+  </form>
+  
+
+  {% set prediction1 = prediction %}
+  {% set extracted_word = prediction1.split("___")[-1] %}
+  
+  {% if "healthy" in extracted_word %}
+    {% set extracted_word = "healthy" %}
+  {% endif %}
+  
+  {% if extracted_word == "healthy" %}
+    <h2>The leaf is healthy</h2>
+    <div class="center-image">
+      <img src="{{img_path}}" height="400px" width="400px" alt="Image">
+    </div>
+  {% else %}
+    <h2><strong>Disease Predicted:</strong> <i>{{ extracted_word }}</i></h2>
+    
+  {% endif %}
+  
+  {% if disease_info and extracted_word != "healthy" %}
+    <h2>Disease Information:</h2>
+    <p style="font-size: 20px;"><strong>Name of the Plant:</strong> {{ disease_info.Plant }}</p>
+    <p style="font-size: 20px;"><strong>Disease:</strong> {{ disease_info.Disease }}</p>
+    <p style="font-size: 20px;"><strong>Symptoms:</strong> {{ disease_info.Symptoms }}</p>
+    <p style="font-size: 20px;"><strong>Causes:</strong> {{ disease_info.Causes }}</p>
+    <p style="font-size: 20px;"><strong>Treatment:</strong> {{ disease_info.Treatment }}</p>
+    <!-- Add more fields as needed -->
+    <div class="center-image">
+      <img src="{{img_path}}" height="400px" width="400px" alt="Image">
+    </div>
+  {% elif not disease_info and extracted_word != "healthy" %}
+    <p>No disease information available.</p>
+  
+  
+
+	{% endif %}
+  
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
